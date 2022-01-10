@@ -35,10 +35,6 @@ ua_windows = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, li
 sys.stdout.write(e)
 sys.stdout.flush()
 time.sleep(0.03)
-def clear():
-if "linux" in sys.platform.lower():os.system("clear")
-elif "win" in sys.platform.lower():os.system("cls")
-else:os.system("clear")
 def banner():
 print("\n%s    __  ____ _____  __**********___ _____ %s®    \n%s   /  \/   /__    )/  )__  ____/  /__    )  \n%s  /       /___)   /  __  )/  __  /___)   / \n%s /  /\/  /  __   /  / / /   (_/ /  __   / \n%s/__/  /_/(______/__/ /_/(______/(______/  V2.0.1\n=================================================\n%s╔══◍➤Desigen By : Raka Andrian Tara\n%s╠══◍➤Github     : https://github.com/Garangan-Z\n%s╚══◍➤Instagram  : raka_andrian27\n%s=================================================\n"%(O,H,O,O,O,O,O,O,O,O))
 def menu_log():
