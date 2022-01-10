@@ -22,9 +22,6 @@ bu = current.month
 ha = current.day
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "August", "09": "September", "10": "October", "11": "November", "12": "December"}
 bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-try:
-if bu < 0 or bu > 12:
-buTemp = bu - 1
 except ValueError:
 exit()
 op = bulan[buTemp]
