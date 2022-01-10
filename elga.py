@@ -24,7 +24,6 @@ bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "0
 bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 try:
 if bu < 0 or bu > 12:
-exit()
 buTemp = bu - 1
 except ValueError:
 exit()
