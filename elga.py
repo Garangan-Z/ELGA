@@ -34,11 +34,6 @@ ua_samsung = 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T; wv) AppleW
 ua_windows = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
 sys.stdout.write(e)
 sys.stdout.flush()
-time.sleep(0.04)
-def mlaku(z):
-for e in z + "\n":
-sys.stdout.write(e)
-sys.stdout.flush()
 time.sleep(0.03)
 def clear():
 if "linux" in sys.platform.lower():os.system("clear")
