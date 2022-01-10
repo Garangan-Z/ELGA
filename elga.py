@@ -21,9 +21,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "August", "09": "September", "10": "October", "11": "November", "12": "December"}
-bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-except ValueError:
-exit()
+bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Desember"]
 op = bulan[buTemp]
 tanggal = ("%s-%s-%s"%(ha,op,ta))
 ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
