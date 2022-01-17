@@ -45,6 +45,7 @@ def login():
 	elif login == "1":
                 try:
 			token=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Token  :\x1b[1;92m ")
+                        print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Pleace Wait ...")
                         cek=requests.get('https://graph.facebook.com/me?access_token='+token)
                         y=json.loads(cek.text)
                         nama = y['name']
@@ -507,7 +508,7 @@ class crack:
 				except Exception as e:
 					exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
 					continue
-				print("\x1b[1;92m╠══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
+				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Contoh Password :\x1b[1;92m Sayang,Bangsat,123456")
 				self.pwlist()
 				break
 			elif f=="t":
