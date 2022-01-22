@@ -586,7 +586,7 @@ class crack:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;96m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] - \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;97m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] \x1b[1;97m- \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack2:
@@ -691,7 +691,7 @@ class crack2:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;96m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] - \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;967m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] \x1b[1;97m- \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack3:
@@ -796,7 +796,7 @@ class crack3:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;96m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] - \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;97m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] \x1b[1;97m- \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 
