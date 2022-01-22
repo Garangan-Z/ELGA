@@ -9,6 +9,12 @@ from menu_instagram import menu_instagram
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
+def jalan(z):
+	for i in z + '\n':
+		sys.stdout.write(i)
+		sys.stdout.flush()
+		time.sleep(00.1)
+
 logo = ("""\x1b[1;92m    __  ____ ______ __☆☆☆☆☆☆☆☆☆☆☆___ ______ ® 
 \x1b[1;92m   /  \/   /__    )   )___ _____/  /__    ) 
 \x1b[1;92m  /       /___)   /  __  )  ___   /___)   / 
@@ -45,7 +51,7 @@ def login():
 	elif login == "1":
                 try:
 			token=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Token  :\x1b[1;92m ")
-                        print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Pleace Wait ...")
+                        jalan("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Please Wait ..."); time.sleep(00.1)
                         cek=requests.get('https://graph.facebook.com/me?access_token='+token)
                         y=json.loads(cek.text)
                         nama = y['name']
