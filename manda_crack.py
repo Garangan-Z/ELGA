@@ -5,7 +5,6 @@ from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from bs4 import BeautifulSoup as parser
 from urllib2 import urlopen
-from menu_instagram import menu_instagram
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
@@ -283,14 +282,13 @@ def menu():
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Stts : Aktif")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Org  : "+org)
 	print("\x1b[1;92m║")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;96m Target Instagram Without Login")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Target Public Id")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m3\x1b[1;92m]\x1b[1;97m Target Id Likes Posts")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m4\x1b[1;92m]\x1b[1;97m Target Follower Id")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m5\x1b[1;92m]\x1b[1;97m Friend's Target Id")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m6\x1b[1;92m]\x1b[1;92m STAR CRACK")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m7\x1b[1;92m]\x1b[1;97m View Crack Results")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m8\x1b[1;92m]\x1b[1;91m Report A Bug")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Target Public Id")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Target Id Likes Posts")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m3\x1b[1;92m]\x1b[1;97m Target Follower Id")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m4\x1b[1;92m]\x1b[1;97m Friend's Target Id")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m5\x1b[1;92m]\x1b[1;92m STAR CRACK")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m6\x1b[1;92m]\x1b[1;97m View Crack Results")
+	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m7\x1b[1;92m]\x1b[1;91m Report A Bug")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;91m Remove Token")
 	print("\x1b[1;92m║")
 	daftar_menu()
@@ -299,18 +297,16 @@ def daftar_menu():
 	if pilih == "":
 		exit("\x1b[1;92m╚══◍➤®[\x1b[1;91m•\x1b[1;92m]\x1b[1;97m Wrong Input")
 	elif pilih == "1":
-		menu_instagram()
-	elif pilih == "2":
 		publik()
-	elif pilih == "3":
+	elif pilih == "2":
 		like_post()
-	elif pilih == "4":
+	elif pilih == "3":
 		follower()
-	elif pilih == "5":
+	elif pilih == "4":
 		teman()
-	elif pilih == "6":
+	elif pilih == "5":
 		metode()
-	elif pilih == "7":
+	elif pilih == "6":
 		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Lihat Hasil\x1b[1;92m OK")
 		print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Lihat Hasil\x1b[1;93m CP")
 		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m0\x1b[1;92m]\x1b[1;97m Return")
@@ -336,9 +332,9 @@ def daftar_menu():
 			menu()
 		else:
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
-	elif pilih == "8":
+	elif pilih == "7":
 		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Anda Akan Diarahkan Ke Messenger")
-		time.sleep(2)
+		time.sleep(00.01)
 		os.system("xdg-open https://m.me/PEMUDA.KALEUM?text=Hallo%20Bang%20Ganteng")
 		exit()
 	elif pilih == "0":
