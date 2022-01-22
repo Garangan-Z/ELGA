@@ -334,7 +334,7 @@ def daftar_menu():
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Wrong Input")
 	elif pilih == "7":
 		print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Anda Akan Diarahkan Ke Messenger")
-		time.sleep(00.01)
+		time.sleep(2)
 		os.system("xdg-open https://m.me/PEMUDA.KALEUM?text=Hallo%20Bang%20Ganteng")
 		exit()
 	elif pilih == "0":
